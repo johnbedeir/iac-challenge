@@ -62,7 +62,7 @@ module "eks" {
   version = "~> 15.1.0"
 
   cluster_name    = local.cluster_name
-  cluster_version = "1.19"
+  cluster_version = "1.20"
   write_kubeconfig = false
 
   subnets = module.vpc.private_subnets

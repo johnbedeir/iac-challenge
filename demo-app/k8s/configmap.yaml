@@ -13,7 +13,7 @@ data:
   LOG_CHANNEL: stack
 
   DB_CONNECTION: pgsql
-  DB_HOST: app-postgresql-master.cbckp8nutrni.eu-central-1.rds.amazonaws.com
+  DB_HOST: app-postgresql-master.cbckp8nutrni.us-east-2.rds.amazonaws.com
   DB_PORT: "5432"
   DB_DATABASE: appPostgresql
   DB_USERNAME: app_postgresql

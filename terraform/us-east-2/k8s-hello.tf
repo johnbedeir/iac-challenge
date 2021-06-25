@@ -66,7 +66,7 @@ resource "kubernetes_deployment" "hello" {
       spec {
         container {
           name  = "nginx-hello"
-          image = "nginxdemos/hello:latest"
+          image = "triple3a/nginx-image"
           port {
             container_port = 80
           }

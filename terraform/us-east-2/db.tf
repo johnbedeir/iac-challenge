@@ -1,6 +1,6 @@
 locals {
   name   = "app-postgresql"
-  region = "eu-central-1"
+  region = "us-east-2"
   tags = {
     Terraform = "true"
     Owner       = "user"
