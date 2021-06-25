@@ -1,0 +1,15 @@
+k8s
+.idea
+.env*
+.git*
+.vscode
+vendor/
+.DS_Store
+storage/*
+Buildfile*
+Dockerfile
+.styleci.yml
+.editorconfig
+composer.lock
+_ide_helper.php
+.phpstorm.meta.php
