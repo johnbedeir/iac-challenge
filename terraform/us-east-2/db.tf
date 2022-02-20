@@ -54,7 +54,7 @@ module "master" {
   max_allocated_storage = local.max_allocated_storage
   storage_encrypted     = false
 
-  name     = "appPostgresql"
+  #name     = "appPostgresql"
   username = "app_postgresql"
   password = "YourPwdShouldBeLongAndSecure!"
   port     = local.port
